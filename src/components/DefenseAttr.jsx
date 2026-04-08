@@ -3,12 +3,12 @@ import {
 	StoryblokServerComponent,
 } from '@storyblok/react/rsc';
 
-const Grid = ({ blok }) => (
-	<div {...storyblokEditable(blok)} className="grid flex-Grid">
-		{blok.columns.map((nestedBlok) => (
+const DefenseAttr = ({ blok }) => (
+	<div {...storyblokEditable(blok)} className="flex">
+		{blok.attributes.map((nestedBlok) => (
 			<StoryblokServerComponent blok={nestedBlok} key={nestedBlok._uid} />
 		))}
 	</div>
 );
 
-export default Grid;
+export default DefenseAttr;

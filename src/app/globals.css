@@ -1,1 +1,13 @@
 @import 'https://a.storyblok.com/f/212319/x/e6ccda03b8/blueprint-blank.css';
+@import "tailwindcss";
+
+.flex-Grid {
+  display: flex;
+  flex-direction: row; /* or column */
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+.flex-GridChild {
+  flex: auto;
+}
