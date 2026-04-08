@@ -1,6 +1,5 @@
 import { StoryblokStory } from '@storyblok/react/rsc';
 import { getStoryblokApi } from '@/lib/storyblok';
-import { useStoryblokBridge } from '@storyblok/react';
 
 export default async function Page({ params }) {
 	const { slug } = await params;

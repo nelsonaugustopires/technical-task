@@ -2,6 +2,7 @@ import {
 	storyblokEditable,
 	StoryblokServerComponent,
 } from '@storyblok/react/rsc';
+import ImageUploadButton from './UploadButton';
 
 const HeroInfo = ({blok}) => (
 	<div {...storyblokEditable(blok)} className='HeroInfo'>
@@ -12,6 +13,7 @@ const HeroInfo = ({blok}) => (
 					alt="HeroImg" 
 					className="w-full h-full object-cover rounded-md border-4 border-stone-800 shadow-inner grayscale hover:grayscale-0 transition-all duration-500"
 				/>
+				<ImageUploadButton />
 			</div>
 			<div className="flex-grow flex flex-col gap-6 text-stone-200 w-full">
 				<div className="flex justify-between items-end border-b-2 border-stone-700 pb-2">
