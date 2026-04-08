@@ -39,7 +39,7 @@ const TalentOrigin = ({ blok }) => {
 												className="p-0 align-top text-sm text-stone-300 border-x border-stone-800/30"
 											>
 												{/* Handling the JSON line breaks and Storyblok _editable tags if needed */}
-												<div className={`${cellIdx === 1 ? 'max-h-48 overflow-y-auto' : ''} p-5 whitespace-pre-wrap scrollbar-thin scrollbar-thumb-stone-700 scrollbar-track-transparent`}>
+												<div className={`${cellIdx === 1 ? 'max-h-48 overflow-y-auto' : 'font-bold'} p-5 whitespace-pre-wrap scrollbar-thin scrollbar-thumb-stone-700 scrollbar-track-transparent`}>
 													{cell.value}
 												</div>
 											</td>

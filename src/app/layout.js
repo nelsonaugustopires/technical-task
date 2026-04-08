@@ -10,7 +10,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	const navLinks = [
     { name: "Hero", href: "/" },
-    { name: "Features", href: "/feature" }, 
+    { name: "Features", href: "/feature" },
+		{ name: "Magic", href: "/magic" }, 
   ];
 
 	return (

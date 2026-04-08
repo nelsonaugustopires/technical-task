@@ -13,11 +13,13 @@ import GeneralBlock from '@/components/GeneralBlock';
 import SpellBlock from '@/components/SpellBlock';
 import CombatBlock from '@/components/CombatBlock';
 import TalentOrigin from '@/components/TalentOrigin';
+import Page from '@/components/Page';
 
 export const getStoryblokApi = storyblokInit({
 	accessToken: process.env.STORYBLOK_DELIVERY_API_TOKEN,
 	use: [apiPlugin],
 	components: {
+		page: Page,
 		MainPage: MainPage,
 		grid: Grid,
 		gridRow: GridRow,
