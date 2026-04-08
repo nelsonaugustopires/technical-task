@@ -1,4 +1,4 @@
-import './globals.css';
+import './globals.css'
 import StoryblokProvider from '@/components/StoryblokProvider';
 import Link from 'next/link';
 
@@ -7,7 +7,7 @@ export const metadata = {
 	description: 'A Dungeons&Dragons Character Sheet',
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode;}) {
+export default function RootLayout({ children }) {
 	const navLinks = [
     { name: "Hero", href: "/" },
     { name: "Features", href: "/feature" }, 
