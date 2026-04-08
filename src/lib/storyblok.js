@@ -40,5 +40,9 @@ export const getStoryblokApi = storyblokInit({
 		endpoint: process.env.STORYBLOK_API_BASE_URL
 			? `${new URL(process.env.STORYBLOK_API_BASE_URL).origin}/v2`
 			: undefined,
+		cache: {
+			type: 'none',
+			clear: 'auto'
+		}
 	},
 });

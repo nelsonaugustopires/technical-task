@@ -9,6 +9,7 @@ export default async function Page({ params }) {
 
 	let sbParams = {
 		version: 'draft',
+		cv: Date.now()
 	};
 
 	const storyblokApi = getStoryblokApi();

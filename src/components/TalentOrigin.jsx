@@ -3,6 +3,7 @@ import { storyblokEditable } from '@storyblok/react/rsc';
 
 const TalentOrigin = ({ blok }) => {
 	return (
+		
 		<div className="TalentOrigin w-full flex flex-col gap-10 bg-stone-950 p-4 md:p-8" {...storyblokEditable(blok)}>
 			<section className="flex flex-col gap-4">
 				{/* Section Header */}
